@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" class="default-theme">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="
+		A collection of colexification graphs extracted from Wiktionary.
+		Colexification occurs when a language uses the same word for different
+		concepts. The website provides an interactive visualization of common
+		colexifications found in different languages.">
+	<meta name="theme-color" content="#000000">
+
+	<title>[pa.laˈsi.mi]</title>
+	<script defer src="index.js" type="module"></script>
+	<link rel="stylesheet" href="index.css">
+
+	<link rel="prefetch" href="/fonts/Merriweather/Merriweather-Regular.ttf">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+</head>
+
+
+	<body>
+		
+		<header class="header">
+	<nav class="primary-nav">
+		<a class="logo" href="/">[p<span class="concealable">a.laˈsi.mi</span>]</a>
+
+		<!--Placeholder only; gets replaced in js.-->
+		<div id="placeholder-search-box" class="search-box">
+			<div class="search-input">
+				<input placeholder="Search concepts" autocapitalize="none">
+			</div>
+		</div>
+
+		<a href="/graph#" title="Show random page">Random</a>
+	</nav>
+</header>
+
+		
+
+		<noscript>
+	<article class="article">
+		<p style="color: var(--color-a); padding-top: 1em">
+			Some elements on this page require JavaScript to work properly.
+			Please enable JavaScript or use a browser that supports it.
+		</p>
+	</article>
+</noscript>
+
+
+		
+<main>
+	<div id="cytoscape-container"></div>
+</main>
+
+
+		
+	</body>
+</html>
